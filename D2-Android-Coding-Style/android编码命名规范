@@ -49,4 +49,7 @@ RadioButton          rbtn
 ImageButton          ibtn
 10.接口（interface）：命名规则与类一样采用大驼峰命名法，多以able或ible结尾
 eg:interface Runnable ;
+11.资源文件
+activity_:跟activity名称一致
+item_:listview item名称
 
