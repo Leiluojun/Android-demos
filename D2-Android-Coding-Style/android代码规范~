@@ -1,0 +1,52 @@
+1.成员变量命名
+1)static：s开头 
+eg:private static MyClass sSingleton;
+2)normal：m开头 
+eg:private int mPackagePrivate;
+3)常量：大写，下划线分割 
+eg:public static final int SOME_CONSTANT = 42;
+2.if-else
+如果没有花括号，与if或者else同行；如果有花括号，令起一行。
+if-else中把某种情况单独提出到一个方法内。
+eg：
+1）if (something) {
+            // ...
+        } else if (somethingElse) {
+            // ...
+        } else {
+            // ...
+        }
+2）if (condition) body(); // ok
+3.没行最不要超过100字符（待定）
+4.一个方法不得超过一百行
+5.强转类型必须加try-catch
+6.类命名，大写开头；如果类名称由多个单词组成，则每个单词的首字母均应为大写。
+7.方法命名，方法的名字的第一个单词应以小写字母作为开头，后面的单词则用大写字母开头。
+8.使用Javadoc注释，以/**开头，而以*/结束，注释可以包含一些HTML标记符和专门的关键词
+eg： 
+/**
+* This is an example of 
+* Javadoc 
+* @author aaa 
+* @version 6.6, 01/25/2016 
+*/ 
+9.控件命以缩写开头，id跟变量名相同
+控件               缩写
+RecyclingImageView   riv
+Button               btn
+TextView             tv
+ImageView            iv
+ListView             lv
+EditText             et
+RelativeLayout       rl
+LinearLayout         ll
+TableLayout          tl
+AbsoluteLayout       al
+FrameLayout          fl
+ScrollView           sv
+CheckBox             cb
+RadioButton          rbtn
+ImageButton          ibtn
+10.接口（interface）：命名规则与类一样采用大驼峰命名法，多以able或ible结尾
+eg:interface Runnable ;
+
