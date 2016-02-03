@@ -9,7 +9,7 @@ javah -classpath . -jni com.example.jnitest.JniLib
 ###1）LOCAL_PATH：在开发树中查找源文件
 ###2）LOCAL_SRC_FILES：需要打包进去的源文件，不用包含头文件
 ###3）LOCAL_MODULE：用来生成的lib名称
-###）LOCAL_CFLAGS += -fvisibility：导不导出函数符号表
-###）APP_ABI：内核
+###4）LOCAL_CFLAGS += -fvisibility：导不导出函数符号表
+###5）APP_ABI：内核
 ##6.ndk-buid生成so
 ndk-build APP_ABI="armeabi armeabi-v7a x86 mips"
