@@ -5,7 +5,7 @@
 1）打开bin/classes目录
 javah -classpath . -jni com.example.jnitest.JniLib 
 
-2)将com_example_jnitest_JniLib.h头文件移动到jni目录
+2）将com_example_jnitest_JniLib.h头文件移动到jni目录
 ###5.新建Android.mk文件
 1）LOCAL_PATH：在开发树中查找源文件
 
