@@ -1,4 +1,4 @@
-1.新建native方法
+#1.新建native方法
 2.新建jni目录
 3.编译native类生成class
 4.通过class文件生成h文件
