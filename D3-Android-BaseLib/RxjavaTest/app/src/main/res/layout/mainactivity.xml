@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.test.view.CustomTitleBar
+        android:id="@+id/ctbTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></com.android.test.view.CustomTitleBar>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ctbTitleBar"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ctbTitleBar"
+        android:text="search" />
+
+    <ListView
+        android:id="@+id/lvRxData"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/etSearch"
+        android:layout_marginTop="10dp"></ListView>
+
+</RelativeLayout>
