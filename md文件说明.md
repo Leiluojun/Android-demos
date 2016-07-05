@@ -10,19 +10,20 @@
 
 <p>区块引用则使用 email 形式的 '>' 角括号。</p>
 
+<p bgcolor="#002211">
 <p>Markdown 语法:</p>
 <p>A First Level Header</p>
 <p>====================</p>
 <p>A Second Level Header</p>
 <p>---------------------</p>
-</p>
+
 <p>Now is the time for all good men to come to the aid of their country. This is just a regular paragraph.</p>
-</p>
+
 <p>The quick brown fox jumped over the lazy dog's back.</p>
 <p>### Header 3</p>
-</p>
+
 <p>> This is a blockquote.</p>
 <p>> </p>
 <p>> This is the second paragraph in the blockquote.</p>
 <p>></p>
-<p>> ## This is an H2 in a blockquote</p>
+<p>> ## This is an H2 in a blockquote</p></p>
