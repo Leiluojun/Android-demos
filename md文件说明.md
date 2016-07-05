@@ -16,12 +16,9 @@ Markdown 语法:</p>
 <p>A Second Level Header</p>
 <p>---------------------</p>
 </p>
-<p>Now is the time for all good men to come to</p>
-<p>the aid of their country. This is just a</p>
-<p>regular paragraph.</p>
+<p>Now is the time for all good men to come to the aid of their country. This is just a regular paragraph.</p>
 </p>
-<p>The quick brown fox jumped over the lazy</p>
-<p>dog's back.</p>
+<p>The quick brown fox jumped over the lazy dog's back.</p>
 <p>### Header 3</p>
 </p>
 <p>> This is a blockquote.</p>
